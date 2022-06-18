@@ -15,11 +15,8 @@ class TestCalc:
     def test_multiply_calculator_correct(self):
         assert self.calc.divission(self, 8, 2) == 4
 
-    def test_multiply_calculator_failed(self):
-        assert self.calc.divission(self, 8, 2) == 6
-
     def test_multiply_calculator_correct(self):
         assert self.calc.subtraction(self, 15, 5) == 10
 
-    def test_multiply_calculator_failed(self):
-        assert self.calc.adding(self, 5, 5) == 11
+    def test_multiply_calculator_corrrct(self):
+        assert self.calc.adding(self, 5, 5) == 10
